@@ -260,6 +260,12 @@ h3{font-size:1.28rem;line-height:1.25}
 .hero__logo{display:block;width:clamp(200px,28vw,290px);height:auto;margin-bottom:6px}
 .foot__logo{display:block;width:200px;max-width:100%;height:auto;margin-bottom:4px}
 .page__logo{display:block;width:200px;max-width:100%;height:auto}
+.was{font-size:1.05rem;color:var(--text-dim);margin-bottom:-12px}
+.was s,.price-note s{text-decoration-thickness:2px;text-decoration-color:var(--shallow);color:var(--text-dim)}
+.price-note s{margin-right:.25em}
+.was__deadline{font-weight:600;color:var(--foam);margin-top:-6px}
+.was__lock{color:var(--text);margin-top:-8px;max-width:44ch}
+.was__note{font-size:.92rem;color:var(--text-dim);max-width:44ch}
 </style>
 </head>
 <body>
@@ -299,7 +305,6 @@ h3{font-size:1.28rem;line-height:1.25}
       <p class="lead prose">Encontros ao vivo toda semana, em um grupo pequeno de até 7 pessoas. Você aprende a Respiração Ativa passo a passo, mesmo que nunca tenha feito nada parecido.</p>
       <div class="hero__cta">
         <a class="btn btn--go" href="#oferta" data-checkout>Quero desacelerar</a>
-        <span class="price-note">R$ 97 por mês, cancele quando quiser</span>
       </div>
     </div>
 
@@ -470,11 +475,11 @@ h3{font-size:1.28rem;line-height:1.25}
 <section class="band band--paper reveal" id="garantia">
   <div class="wrap offer">
     <div class="stack">
-      <h2>Garantia de 7 dias</h2>
-      <p class="price">7<small class="per">dias</small></p>
+      <h2>Garantia de 30 dias</h2>
+      <p class="price">30<small class="per">dias</small></p>
     </div>
     <div class="stack prose">
-      <p class="lead">Entre, participe, pratique. Se nos primeiros 7 dias você sentir que não é para você, devolvemos 100% do valor. Sem perguntas e sem burocracia.</p>
+      <p class="lead">Entre, participe, pratique. Se nos primeiros 30 dias você sentir que não é para você, devolvemos 100% do valor. Sem perguntas e sem burocracia.</p>
       <p class="soft">Depois disso, você continua livre: pode cancelar a assinatura quando quiser, sem multa, e nenhuma nova cobrança é feita. <a href="cancelar.html">Veja como cancelar</a>.</p>
     </div>
   </div>
@@ -485,7 +490,11 @@ h3{font-size:1.28rem;line-height:1.25}
   <div class="wrap offer">
     <div class="stack">
       <h2>Mente sem Caos</h2>
+      <p class="was">De <s>R$ 197</s> por</p>
       <p class="price"><small>R$</small>97<small class="per">/mês</small></p>
+      <p class="was__deadline">Promoção válida até 27/11.</p>
+      <p class="was__lock">Quem assinar até 27/11 mantém os R$ 97 por mês enquanto a assinatura estiver ativa.</p>
+      <p class="was__note">R$ 197 por mês é o valor praticado por programas semelhantes. Aqui você paga R$ 97 por mês, com 1 encontro ao vivo por semana, toda semana.</p>
       <p class="soft">Menos de R$ 25 por encontro ao vivo, considerando 4 encontros no mês. Pagamento por cartão de crédito, Pix, PayPal, Apple Pay ou Google Pay.</p>
       <a class="btn btn--go" href="#oferta" data-checkout>Quero desacelerar</a>
       <p class="notice" id="checkoutNotice" hidden>O checkout ainda não está conectado. Informe o link da plataforma em <code>data-checkout-url</code>, no início do arquivo.</p>
@@ -494,7 +503,7 @@ h3{font-size:1.28rem;line-height:1.25}
     <div class="stack">
       <h3>Tudo o que está incluído</h3>
       <ul class="ticks">
-        <li>1 encontro ao vivo por semana, de 1 hora</li>
+        <li>1 encontro ao vivo por semana, toda semana, de 1 hora</li>
         <li>Grupo pequeno, com até 7 pessoas</li>
         <li>Suporte pelo WhatsApp entre os encontros</li>
         <li>RespirApp com áudios exclusivos</li>
@@ -530,7 +539,7 @@ h3{font-size:1.28rem;line-height:1.25}
     <p class="lead">Você já respira o dia inteiro. Agora pode aprender a usar isso a seu favor, uma semana de cada vez, com companhia e acompanhamento.</p>
     <div class="hero__cta">
       <a class="btn btn--go" href="#oferta" data-checkout>Quero desacelerar</a>
-      <span class="price-note">R$ 97 por mês, garantia de 7 dias</span>
+      <span class="price-note">De <s>R$ 197</s> por R$ 97 por mês, garantia de 30 dias</span>
     </div>
     <p class="soft"><a href="#topo">Fazer de novo o exercício de 1 minuto</a></p>
   </div>
